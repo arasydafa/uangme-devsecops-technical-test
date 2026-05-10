@@ -20,7 +20,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 	hostname, _ := os.Hostname()
 
 	resp := Response{
-		Message:   "Hello from UangMe!",
+		Message:   "Hello from Arasy!",
 		Timestamp: time.Now().UTC().Format(time.RFC3339),
 		Hostname:  hostname,
 		Version:   "1.0.0",

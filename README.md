@@ -1,4 +1,4 @@
-# UangMe HelloWorld - DevSecOps Technical Test
+# Arasy HelloWorld - DevSecOps Technical Test
 
 Go-based HelloWorld application with Docker containerization, Kubernetes deployment, and Jenkins CI/CD pipeline.
 
@@ -44,7 +44,7 @@ curl http://localhost:8080/
 **GET /** - Hello message
 ```json
 {
-  "message": "Hello from UangMe!",
+  "message": "Hello from Arasy!",
   "timestamp": "2026-05-10T12:00:00Z",
   "hostname": "helloworld-abc123",
   "version": "1.0.0"

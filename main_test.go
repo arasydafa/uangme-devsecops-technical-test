@@ -33,8 +33,8 @@ func TestHelloHandler(t *testing.T) {
 		t.Fatalf("Failed to parse response body: %v", err)
 	}
 
-	if resp.Message != "Hello from UangMe!" {
-		t.Errorf("handler returned unexpected message: got %v want %v", resp.Message, "Hello from UangMe!")
+	if resp.Message != "Hello from Arasy!" {
+		t.Errorf("handler returned unexpected message: got %v want %v", resp.Message, "Hello from Arasy!")
 	}
 }
 
