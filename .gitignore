@@ -25,3 +25,8 @@ Thumbs.db
 
 # Docker
 .dockerignore
+
+# Local helper files (not for submission)
+deploy.sh
+RECORDING_GUIDE.md
+test-deploy.bat
