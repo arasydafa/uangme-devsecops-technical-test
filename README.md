@@ -6,11 +6,13 @@ Go-based HelloWorld application with Docker containerization, Kubernetes deploym
 
 ```
 ├── main.go              # Go HTTP application
-├── main_test.go         # Unit tests
+├── main_test.go         # Unit tests with security validation
 ├── go.mod               # Go module
 ├── pom.xml              # Maven configuration
 ├── Dockerfile           # Multi-stage Docker build
 ├── Jenkinsfile          # CI/CD pipeline
+├── .gitignore
+├── README.md
 └── k8s/
     ├── deployment.yaml  # Kubernetes deployment
     └── service.yaml     # Kubernetes service
